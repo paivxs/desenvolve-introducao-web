@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de CSS</title>
+  <style>
+    a {
+      color: red;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(131, 241, 40); 
+    }
+
+    p {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 + p {
+      font-weight: bold;
+    }
+
+    .destaque {
+      font-family: Arial, sans-serif;
+    }
+
+    p.destaque {
+      font-weight: bold;
+    }
+
+    strong.destaque {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bem-vindo ao site</h1>
+  <p>Este parágrafo não será em negrito.</p>
+  <p>Outro parágrafo comum.</p>
+
+  <h1>Seção Importante</h1>
+  <p>Este parágrafo será <span class="destaque">destaque</span> e em negrito.</p>
+
+  <p class="destaque">Este parágrafo com a classe destaque ficará em negrito.</p>
+
+  <strong class="destaque">Este texto em negrito com classe destaque ficará vermelho.</strong>
+
+  <p>Veja mais clicando <a href="#">aqui</a>.</p>
+
+</body>
+</html>
