@@ -1,0 +1,157 @@
+/* Fonte personalizada */
+@font-face {
+  font-family: 'GoticWeen';
+  src: url('fonts/gotic-ween.ttf') format('truetype');
+}
+
+/* Corpo da página */
+body {
+  font-family: 'GoticWeen', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #f0f0f0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #222;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-bottom: 5px solid #e63946;
+}
+
+/* Título principal */
+.titulo {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 20px;
+  color: #e63946;
+}
+
+/* Conteúdo principal */
+main {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Seções */
+section {
+  margin-bottom: 30px;
+}
+
+/* Aside (lateral) */
+aside {
+  float: right;
+  width: 28%;
+  background-color: #1a1a1a;
+  padding: 20px;
+  box-sizing: border-box;
+  border-left: 3px solid #e63946;
+}
+
+aside h2,
+aside h3 {
+  margin-top: 20px;
+  color: #e63946;
+}
+
+/* Imagens gerais dentro do aside */
+aside img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Imagem do filme clicável */
+aside a img {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+}
+
+/* Estilo dos integrantes */
+.membro {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Imagens menores dos integrantes */
+.membro img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #e63946;
+}
+
+/* Texto do The Dirt destacado */
+.destaque-dirt {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Listas */
+ul, ol {
+  margin-left: 20px;
+}
+
+/* Links */
+a {
+  color: #e63946;
+  text-decoration: none;
+}
+
+/* Rodapé */
+footer {
+  clear: both;
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  margin: 5px 0;
+}
+
+footer p {
+  margin: 10px 0;
+}

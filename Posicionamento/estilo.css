@@ -1,0 +1,20 @@
+.page-wrapper {
+    position: relative; 
+}
+
+.explanation {
+    width: 60%;             
+    margin-right: 35%;       
+    border-right: 1px solid #1f295c; 
+    padding-right: 2%;       
+    box-sizing: border-box;  
+}
+
+
+.design-menu {
+    position: absolute; 
+    top: 560px;         
+    left: 62%;          
+    padding: 0 2%;      
+    box-sizing: border-box; 
+}
